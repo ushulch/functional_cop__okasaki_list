@@ -1,0 +1,25 @@
+{
+    "name": "okasaki-list",
+    "version": "1.0.0",
+    "description": "Implementation of an immutable list as described by Chris Okasaki",
+    "main": "OkasakiList.js",
+    "scripts": {
+        "test": "ts-node --project ./tsconfig.json ./node_modules/jasmine/bin/jasmine",
+        "build": "node node_modules/typescript/bin/tsc",
+        "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+        "lint": "tslint -p tsconfig.json"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jasmine": "^3.4.0",
+        "prettier": "^1.18.2",
+        "tslint": "^5.17.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.5.2",
+        "@types/jasmine": "^3.3.13",
+        "ts-node": "^8.3.0"
+    },
+    "dependencies": {
+    }
+}
