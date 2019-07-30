@@ -1,6 +1,7 @@
 import 'jasmine';
 import * as Olist from '../src/OkasakiList';
 
+
 describe('cons', function () {
     it('Returns a list with new value as the only element when called against an empty list', function () {
         const emptyOlist = Olist.empty<number>();
