@@ -1,0 +1,7 @@
+ghc-options:
+  "$locals": -Wall -Werror
+  "$everything": -O2
+
+resolver: lts-14.6
+packages:
+- .
